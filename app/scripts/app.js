@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-    .module('tranquilobirdersApp', ['angular-carousel',
+    .module('tranquilobirdersApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',

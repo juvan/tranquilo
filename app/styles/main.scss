@@ -180,6 +180,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    transition: background-image 2s ease;
 }
 
 header .header-content {
