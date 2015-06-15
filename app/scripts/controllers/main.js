@@ -15,16 +15,16 @@ angular.module('tranquilobirdersApp')
       'Karma'
     ];
         var i = 1;
-        $scope.header = "images/header" + i + ".jpg";
+        $scope.header = "headerState1";
 
-        var var_1 = $interval(function () {
+       $interval(function () {
             console.log("Interval");
-            $scope.header = "images/header" + i + ".jpg";
             i++;
             if (i > 3) {
                 i = 1
             };
-        }, 5000);
+            $scope.header = "headerState" +i;
+        }, 9000);
 
 
 
